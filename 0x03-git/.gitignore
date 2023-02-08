@@ -1,8 +1,5 @@
- # Untracked files:
-    [...]
-    #       Documentation/foo.html
-    #       Documentation/gitignore.html
-    #       file.o
-    #       lib.a
-    #       src/internal.o
-    [...]
+# exclude everything except directory foo/bar
+    /*
+    !/foo
+    /foo/*
+    !/foo/bar
